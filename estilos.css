@@ -1,0 +1,97 @@
+
+/********* SMOTH SCROLL *********/
+
+html {
+    scroll-behavior: smooth;
+}
+
+/******* AJUSTES GENERALES ******/
+
+ul {
+    list-style-type: none;
+    
+    
+}
+
+h2{
+    color: #343a40;
+}
+
+.numeros{
+    color: #343a40;
+}
+
+h5{
+    color: white;
+}
+
+
+
+
+body{
+    background-color:#010101;
+}
+
+#cuerpo{
+    background-image: url(imagenes/pattern/patron1.jpg);
+}
+
+/*********** COLOR ***********/
+
+h1{
+    color: white;
+    /* font-size: 60px; */
+    
+    
+    
+}
+
+#naruto, #tokyo, #attackontitan, #onepiece, #kimetsu{
+    background-color: white;
+}
+
+/* #rankingCaja{
+    max-width: 1600px;
+   
+} */
+
+
+/******** NOTICIAS ******/
+
+.noticias li h3{
+    color: white;
+}
+
+.noticias a{
+    color: white;
+    
+}
+
+
+
+
+
+
+/********* FOOTER ************/ 
+
+
+.encabezado h1{
+font-size:xx-large;
+color: #343a40;
+text-align: center;
+font-weight: normal;
+}
+
+.encabezado h2{
+    font-size:x-large;
+    color: #343a40;
+    text-align: center;
+    font-weight: lighter;
+   
+}
+
+.footer{
+    vertical-align: middle;
+}
+
+

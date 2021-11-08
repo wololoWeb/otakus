@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!---------- FAVICON - AGREGAR ICONO A PESTAÑA -------->
+
+  <link rel="shortcut icon" type="image/png" href="imagenes/icono.png" />
+
+  <!---------------- LINKEAR CON ESTILOS.CSS ------------>
+
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- FONTAWESOME -->
+
+  <script src="https://kit.fontawesome.com/b1a4787b70.js" crossorigin="anonymous"></script>
+
+  <title>OTAKUS</title>
+</head>
+
+<body>
+
+
+  <!------------------------------ BANNER ------------------------>
+
+
+  <div class="container text-center px-0" id="encabezado">
+
+    <img src="imagenes/banner-byn2.jpg" class="img-fluid" alt="Banner de Otakus">
+
+  </div>
+
+  <!-------------------------------- NAVBAR ----------------------->
+
+
+
+  <nav class="container navbar fixed navbar-expand-md navbar-dark py-5 pr-0" style="background-color: #161616;">
+
+
+    <!-------------------- ICONO --------------->
+
+    <a class="navbar-brand pl-3 pr-3" href="index.html">
+      <img src="imagenes/icono.png" width="50" height="50" class="d-inline-block align-top" alt="Logo de Otakus">
+
+    </a>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end nav" id="navbarNav"
+      style="background-image: linear-gradient(to right, #812a71, #ae3f50);">
+      <ul class="navbar-nav">
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle font-weight-bolder pl-3" href="#" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            ANIME
+          </a>
+
+          <div class="dropdown-menu" style="background-color: #ae3f50; color: white;"
+            aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" style="background-color: #ae3f50; color: white;" href="#ranking">Ranking</a>
+            <a class="dropdown-item" style="background-color: #ae3f50; color: white;" href="#noticias">Noticias</a>
+            <a class="dropdown-item" style="background-color: #ae3f50; color: white;" href="#kimetsu">Lista</a>
+          </div>
+
+        </li>
+
+
+
+
+        <li class="nav-item active">
+
+          <a class="nav-link font-weight-bolder" href="#videojuegos">VIDEOJUEGOS<span
+              class="sr-only">(current)</span></a>
+
+        </li>
+
+        <li class="nav-item active">
+
+          <a class="nav-link font-weight-bolder" href="#galeria">GALERIA<span class="sr-only">(current)</span></a>
+
+        </li>
+
+
+
+
+        <li class="nav-item active">
+
+          <a class="nav-link font-weight-bolder pr-3" href="#contacto">CONTACTO<span
+              class="sr-only">(current)</span></a>
+
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!----------------------- CAROUSEL - SLIDE ONLY ---------------------->
+
+
+
+  <div class="container px-0" id="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/carousel/AOT.jpg" class="d-block w-100" alt="Portada de Shingeki no Kyojin">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carousel/gow4.jpg" class="d-block w-100" alt="Portada de God of War">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carousel/prueba2.jpg" class="d-block w-100" alt="Portada de Bleach">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carousel/zelda.jpg" class="d-block w-100" alt="Zelda y Link abrazados">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carousel/prueba3.jpg" class="d-block w-100" alt="Mujer con katana">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!----------------------------------- BANNER -------------------------------->
+
+
+  <div class="container  mx-auto px-auto" style="background-color: black;">
+    <div class="row">
+
+      <img src="imagenes/banner/2.jpg" class="col-lg-12 px-0" alt="">
+      <h1 class="text-left col-12 pt-3 pb-3 mb-0" id="ranking"
+        style="background-image: linear-gradient(to right, #ae3f50,#812a71);">RANKING</h1>
+      <p class="text-left font-weight-bold container-fluid col-12 mb-0 bg-dark" style="color: white; ">
+        >ランキング</p>
+    </div>
+  </div>
+
+
+
+  <!---------------------------------- TITULO RANKING ----------------------------->
+
+  <div class="container mx-auto px-auto" style="background-color: black;">
+    <div class="row">
+
+
+
+
+
+
+      <div class="card border rounded-0 col-12 col-md-6 col-lg-3" style="background-color: white;">
+        <img src="imagenes/gifs/kimetsu.gif" class="card-img-top rounded-0 mt-3" alt="Gif animado de Naruto"
+          id="imagenchica">
+        <div class="card-body bg-white" style="color: black">
+          <h3 class="numeros text-center font-weight-lighter py-3">- 5 -</h3>
+          <h2 class="card-title text-center font-weight-lighter pt-3">KIMETSU NO YAIBA</h2>
+          <p class="card-text text-center pt-3"> La historia se centra en Tanjirō Kamado, un joven inteligente y de
+            buen corazón que vive con su familia en las montañas. Toda su vida cotidiana cambia cuando, al regresar a
+            su casa, descubre que su madre y sus hermanos han sido atacados y asesinados por un demonio.</p>
+        </div>
+        <a href="#kimetsu" class="btn btn-dark text-center rounded-0 mb-3">Ver
+          más</a>
+      </div>
+
+
+      <div class="card border rounded-0 col-12 col-md-6 col-lg-3" style="background-color: white;">
+        <img src="imagenes/gifs/onepiece.gif" class="card-img-top rounded-0 mt-3" alt="Gif animado de Naruto"
+          id="imagenchica">
+        <div class="card-body bg-white" style="color: black">
+          <h3 class="numeros text-center font-weight-lighter py-3">- 4 -</h3>
+          <h2 class="card-title text-center font-weight-lighter pt-3">ONE PIECE</h2>
+          <p class="card-text text-center pt-3"> La serie comienza con la ejecución de Gol D. Roger, un hombre
+            conocido
+            como El Rey de los Piratas. Justo antes de su muerte, Roger hace mención de su gran tesoro legendario, el
+            One Piece y que puede ser tomado por quien lo encuentre. Esto marca el inicio de una era conocida como la
+            Gran Era Pirata.</p>
+        </div>
+        <a href="#onepiece" class="btn btn-dark text-center rounded-0 mb-3 border-0">Ver más</a>
+      </div>
+
+
+
+      <div class="card border rounded-0 col-12 col-md-6 col-lg-3" style="background-color: white;">
+        <img src="imagenes/gifs/naruto2.gif" class="card-img-top rounded-0 mt-3" alt="Gif animado de Naruto"
+          id="imagenchica">
+        <div class="card-body bg-white" style="color: black">
+          <h3 class="numeros text-center font-weight-lighter py-3">- 3 -</h3>
+          <h2 class="card-title text-center font-weight-lighter pt-3">NARUTO</h2>
+          <p class="card-text text-center pt-3"> Escrita e ilustrada por Masashi Kishimoto. La
+            obra narra la historia de un ninja adolescente llamado Naruto Uzumaki, quien aspira a convertirse en
+            Hokage, líder de su aldea, con el propósito de ser reconocido como alguien importante dentro de la aldea
+            y entre sus compañeros.</p>
+        </div>
+        <a href="#naruto" class="btn btn-dark text-center rounded-0 mb-3 border-0">Ver más</a>
+      </div>
+
+      <div class="card border rounded-0 col-12 col-md-6 col-lg-3" style="background-color: white;">
+        <img src="imagenes/gifs/kaneki2.gif" class="card-img-top rounded-0 mt-3" alt="Gif animado de Tokyo Ghoul"
+          id="imagenchica">
+        <div class="card-body bg-white" style="color: black">
+          <h3 class="numeros text-center font-weight-lighter py-3">- 2 -</h3>
+          <h2 class="card-title text-center font-weight-lighter pt-3">TOKYO GHOUL</h2>
+          <p class="card-text text-center pt-3">Ken Kaneki, un joven de 18 años que vive en Tokio, conoce a una chica
+            llamada Rize
+            Kamishiro en una cafetería y la invita a salir. Tras una cita aparentemente normal, Kaneki se ofrece a
+            acompañarla a su casa. Al entrar a un callejón es atacado por ella, quien resulta ser un Ghoul.</p>
+
+        </div>
+        <a href="#tokyo" class="btn btn-dark text-center rounded-0 mb-3 border-0">Ver
+          más</a>
+      </div>
+
+      <div class="card border border-top-0 rounded-0 col-12 col-md-12 col-lg-6">
+        <img src="imagenes/gifs/gifattack.gif" class="card-img-top rounded-0 mt-3" alt="Gif animado de Attack on Titan">
+        <div class="card-body bg-white" style="color: black">
+          <h3 class="numeros text-center font-weight-lighter py-3">- 1 -</h3>
+          <h2 class="card-title text-center font-weight-light pt-3">SHINGEKI NO KYOJIN</h2>
+          <p class="card-text text-center pt-3">Hajime Isayama. El manga se publicó en septiembre de 2009 en la
+            revista Bessatsu Shōnen Magazine de la editorial Kōdansha y difundida de forma mensual hasta abril de
+            2021, con un total de 139 capítulos terminó su historia después de casi doce años.
+          </p>
+        </div>
+        <a href="#attackontitan" class="btn btn-dark text-center rounded-0 mb-3 border-0">Ver más</a>
+      </div>
+
+
+      <div class="card border-0 rounded-0 col-12 col-md-12 col-lg-6 px-0 bg-dark" id="noticias">
+        <h1 class="text-right pt-3 pr-3 pb-3 my-0"
+          style="background-image: linear-gradient(to right,#812a71, #ae3f50);">NOTICIAS</h1>
+        <p class="text-right font-weight-bold container-fluid mb-3" style="color: white; background-color: #161616; ">
+          ニュース
+        </p>
+
+        <ul class="noticias pt-5 px-3 py-3">
+          <li>
+            <h3 class="font-weight-normal" style="color: white;">JKANIME</h3>
+            <a href="https://jkanime.net/" target="_blank" class="font-weight-lighter">Encuentra los episodios completos
+              de tus Animes preferidos</a>
+          </li>
+
+          <li>
+            <h3 class="font-weight-normal mt-3 pt-3" style="color: white;">NETFLIX</h3>
+            <a href="https://somoskudasai.com/noticias/cultura-otaku/los-fanaticos-criticaron-a-netflix-por-los-subtitulos-de-komi-san-wa-komyushou-desu/"
+              target="_blank" class="font-weight-lighter">Los fanáticos criticaron a Netflix por los subtítulos de
+              Komi-san wa, Komyushou desu</a>
+          </li>
+
+          <li>
+            <h3 class="font-weight-normal mt-3 pt-3" style="color: white;">YU-GI-OH!</h3>
+            <a href="https://jkanime.net/" target="_blank" class="font-weight-lighter">El autor de Yu-Gi-Oh! publicará
+              un manga de Spiderman y Iron Man</a>
+          </li>
+
+          <li>
+            <h3 class="font-weight-normal mt-3 pt-3" style="color: white;">DRAGON BALL SUPER</h3>
+            <a href="https://jkanime.net/" target="_blank" class="font-weight-lighter">Finalmente se revela por qué
+              Bardock salvó a Granola</a>
+          </li>
+
+
+
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!------------------------ KIMETSU NO YAIBA --------------------->
+
+  <div class="container border" id="kimetsu">
+    <div class="row align-items-center">
+
+      <div class="col-12 col-md-12 col-lg-6 pt-3 px-5 pt-5">
+
+        <h2 class="text-left pt-3">KIMETSU NO YAIBA</h1>
+          <p class="text-left mt-5 pb-5">
+            La historia se centra en Tanjirō Kamado, un joven inteligente y de buen corazón que vive con su familia en
+            las montañas. Su familia ha sido atacada y asesinada por un demonio, en la cual Tanjirō solo encuentra aun
+            con vida a su hermana Nezuko como la única supervivientes del incidente, pero mientras trata de llevar
+            Nezuko hasta el pueblo para que reciba atención medica, inesperadamente esta se despierta ya transformada en
+            un demonio y trata de atacarlo. Después de un encuentro con Giyū Tomioka, un poderoso espadachín integrante
+            de la elite de los Hashira y perteneciente al gremio de asesino de demonios conocidos como Demon Slayers, el
+            cual en un principio intenta matar a Nezuko por ser una demonio, al ver la determinación de Tanjirō por
+            protegerla y de que su hermana Nezuko aun siendo una demonio intente protegerlo también, Tomioka decide
+            perdonarle la vida por esta vez a Nezuko. Posteriormente Tomioka recluta Tanjiro y lo envía con su antiguo
+            maestro Sakonji Urokodaki, un antiguo miembro del Cuerpo de Demon Slayers, para que este le enseñe a
+            convertirse también en un asesino de demonios.
+          </p>
+
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-6 my-5">
+        <img src="imagenes/kimetsu.jpg" class="img-fluid" alt="Imagen de Naruto">
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <!------------------------ ONE PIECE --------------------->
+
+  <div class="container border" id="onepiece">
+    <div class="row align-items-center">
+
+      <div class="col-12 col-md-12 col-lg-6 pt-3 px-5 pt-5">
+
+        <h2 class="text-left pt-3">ONE PIECE</h1>
+          <p class="text-left mt-5 pb-5">
+            La serie comienza con la ejecución de Gol D. Roger, un hombre conocido como El Rey de los Piratas. Justo
+            antes de su muerte, Roger hace mención de su gran tesoro legendario, el One Piece
+            y que puede ser tomado por quien lo encuentre. Esto marca el inicio de una era
+            conocida como la Gran Era Pirata. Como resultado, un sin número de piratas zarparon
+            hacia el Grand Line con el objetivo de encontrarlo.
+
+            Más de veinte años después de la muerte de Roger, el One Piece sigue sin ser encontrado. Un joven llamado
+            Monkey D. Luffy, inspirado por la admiración que desde su infancia le tiene al poderoso pirata Shanks el
+            Pelirrojo,8​ comienza su aventura desde su hogar en el mar East Blue para encontrar el One Piece y
+            autoproclamarse a él mismo como el nuevo Rey de los Piratas. Con el fin de crear y convertirse en el capitán
+            de una tripulación propia, el muchacho funda los Piratas de Sombrero de Paja, siendo el espadachín Roronoa
+            Zoro el primer nakama​ que Luffy rescata y alista, lo
+            que permite que ambos continúen emprendiendo su viaje hacia el tesoro.
+          </p>
+
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-6 my-5">
+        <img src="imagenes/onepiece.jpg" class="img-fluid" alt="Imagen de Naruto">
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!------------------------ NARUTO --------------------->
+
+  <div class="container border" id="naruto">
+    <div class="row align-items-center">
+
+      <div class="col-12 col-md-12 col-lg-6 pt-3 px-5 pt-5">
+
+        <h2 class="text-left pt-3">NARUTO</h1>
+          <p class="text-left mt-5 pb-5">
+            La historia principal sigue a Naruto y al crecimiento individual de sus amigos, junto a su desarrollo como
+            ninja. Además, se centra en las interacciones entre estos y la influencia del entorno en sus
+            personalidades. Conforme transcurre la serie, Naruto se relaciona con Sasuke Uchiha y Sakura Haruno, con
+            quienes conforma el «Equipo 7» junto a su sensei Kakashi Hatake. Mientras ellos aprenden nuevas
+            habilidades y conocen a nueva gente y escenarios durante sus misiones, Naruto lucha por su sueño de
+            volverse el máximo líder de su aldea (Hokage) y ser respetado y valorado en su aldea. Al inicio, la serie
+            se enfoca en los integrantes del Equipo 7, Naruto, Sasuke y Sakura. Poco después, Orochimaru (uno de los
+            delincuentes más buscados) ataca a la Aldea Oculta de la Hoja, asesinando al Tercer Hokage como acto de
+            venganza personal.​
+          </p>
+
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-6 my-5">
+        <img src="imagenes/naruto2.jpg" class="img-fluid" alt="Imagen de Naruto">
+      </div>
+
+
+    </div>
+  </div>
+
+  <!---------------------- TOKYO GHOUL --------------------->
+  <div class="container border" id="tokyo">
+    <div class="row align-items-center">
+
+
+
+
+      <div class="col-12 col-md-12 col-lg-6 px-5">
+
+        <h2 class="text-left">TOKYO GHOUL</h1>
+          <p class="text-left mt-5">
+            Tokio se ha convertido en una ciudad cruel y despiadada, un lugar donde criaturas crueles llamadas
+            "demonios" coexisten junto a los humanos. Los ciudadanos de esta gran metrópolis viven en constante temor
+            de estos sedientos seres salvajes con un enorme apetito por la carne humana. Sin embargo, el mayor peligro
+            con los ghouls es su capacidad para disfrazarse de humanos y mezclarse fácilmente con la sociedad. Basado
+            en el manga de terror sobrenatural más vendido de Sui Ishida, Tokyo Ghoul sigue al personaje Ken Kaneki,
+            un studiante universitario tímido y estudioso que se siente atraído instantáneamente por Rize Kamishiro,
+            una ávida lectora, como él. Sin embargo, Rize no es exactamente quien parece ser, y este desafortunado
+            encuentro empuja a Kaneki profundamente en el mundo inhumano de los ghouls.
+          </p>
+
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-6 my-5">
+        <img src="imagenes/tokyo.jpg" class="img-fluid" alt="Imagen de Tokyo Ghoul">
+      </div>
+
+    </div>
+  </div>
+
+  <!-------------------- ATTACK ON TITAN --------------------->
+  <div class="container border px-5 py-5" id="attackontitan">
+    <div class="row align-items-center">
+
+      <div class="col-12 col-md-12 col-lg-6 pt-3">
+
+        <h2 class="text-left">SHINGEKI NO KYOKIN</h1>
+          <p class="text-left mt-5 pr-5">
+            La historia se centra en la isla Paradis ubicada al noreste del país Marley, donde Eren Jaeger vive con su
+            familia, su hermana adoptiva Mikasa Ackerman y su mejor amigo Armin
+            Arlert. Ellos se ubican en la denominada Tres Murallas: Muralla Sina, Muralla Rose y Muralla María,
+            construida cien años atrás con el fin de protegerse de los titanes, unas criaturas humanoides. Los titanes
+            tienen una estatura de entre tres a sesenta metros de alto, con una estructura corporal parecida a los
+            humanos. Aunque aparentan no necesitar comida, instintivamente atacan y comen humanos a primera vista.
+            Dependen
+            de la luz del sol para su energía y su único punto débil donde pueden ser vencidos reside en su nuca. La
+            población humana fue capaz de vivir en paz dentro de las murallas hasta el día en que apareció un titán
+            que
+            irrumpe y crea una enorme grieta que permite la entrada de otros titanes a la ciudad.
+          </p>
+
+      </div>
+
+      <div class="col-12 col-md-12 col-lg-6">
+        <img src="imagenes/attackontitan2.jpg" class="img-fluid" alt="Imagen de Attack on Titan">
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <!------------------------------- BANNER ---------------------------->
+
+
+  <div class="container mx-auto px-auto" style="background-color: black;" id="videojuegos">
+    <div class="row">
+
+      <img src="imagenes/banner/1.jpg" class="col-lg-12 px-0" alt="">
+    </div>
+  </div>
+
+
+  <!----------------------------- VIDEOJUEGOS ------------------------->
+
+  <div class="container mx-auto px-auto" style="background-color: black;" id="videojuegos">
+    <div class="row">
+
+      <h1 class="text-left col-12 pt-3 pb-3 mb-0"
+        style="background-image: linear-gradient(to right, #812a71, #ae3f50);">VIDEOJUEGOS</h1>
+      <p class="text-left font-weight-bold container-fluid col-12 mb-0 bg-dark" style="color: white; ">
+        テレビゲーム</p>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-auto" style="background-color: black;">
+    <div class="row">
+
+      <div class="card rounded-0 col-12 col-md-4 col-lg-2 pt-5" style="width: 18rem; background-color: #111111;">
+        <img src="imagenes/videojuegos/zelda.jpg" class="card-img-top" alt="Portada de Zelda">
+        <div class="card-body text-center px-0">
+          <h5 class="card-title">Zelda BOTW</h5>
+          <p class="card-text font-weight-lighter pt-3" style="color: whitesmoke;">Encarna las aventuras de Link por los
+            hermosos y desafiantes paisajes de la tierra de Hyrule.</p>
+        </div>
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item">RPG</li>
+          <li class="list-group-item">Acción</li>
+          <li class="list-group-item">Aventura</li>
+        </ul>
+        <div class="card-body text-center px-0">
+          <a href="https://www.youtube.com/watch?v=1Oui18EpRUM" target="_blank"
+            class="btn btn-dark text-center rounded-0 mb-3">Gameplay</a>
+        </div>
+      </div>
+
+      <div class="card rounded-0 col-12 col-md-4 col-lg-2 pt-5" style="width: 18rem; background-color: #111111;">
+        <img src="imagenes/videojuegos/animalcrossing.jpg" class="card-img-top" alt="Portada de Animal Crossing">
+        <div class="card-body text-center px-0">
+          <h5 class="card-title">Animal Crossing</h5>
+          <p class="card-text font-weight-lighter pt-3" style="color: whitesmoke;"> Videojuego de simulación social y de
+            vida en la que el usuario decide qué hacer.</p>
+        </div>
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item">Simulación</li>
+          <li class="list-group-item">No lineal</li>
+          <li class="list-group-item">Aventura</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="https://www.youtube.com/watch?v=Gx_rHa-KaMg" target="_blank"
+            class="btn btn-dark text-center rounded-0 mb-3">Gameplay</a>
+        </div>
+      </div>
+
+      <div class="card rounded-0 col-12 col-md-4 col-lg-2 pt-5" style="width: 18rem;background-color: #111111;">
+        <img src="imagenes/videojuegos/little-nightmares-2.jpg" class="card-img-top"
+          alt="Portada de Little Nightmares 2">
+        <div class="card-body text-center px-0">
+          <h5 class="card-title">Little Nightmares II</h5>
+          <p class="card-text font-weight-lighter pt-3" style="color: whitesmoke;">Segunda versión de esta aventura de
+            rompecabezas y horror de supervivencia.</p>
+        </div>
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item">Terror</li>
+          <li class="list-group-item">Puzzles</li>
+          <li class="list-group-item">Aventura</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="https://www.youtube.com/watch?v=-e3stX-Xkqw" target="_blank"
+            class="btn btn-dark text-center rounded-0 mb-3">Gameplay</a>
+        </div>
+      </div>
+
+      <div class="card rounded-0 col-12 col-md-4 col-lg-2 pt-5" style="width: 18rem;background-color: #111111;">
+        <img src="imagenes/videojuegos/rocket-league.jpg" class="card-img-top" alt="Portada de Rocket League">
+        <div class="card-body text-center px-0">
+          <h5 class="card-title">Rocket League</h5>
+          <p class="card-text font-weight-lighter pt-3" style="color: whitesmoke;"> Combina tus pasiones, el fútbol con
+            los vehículos, y tendras un juego adictivo al extremo.</p>
+        </div>
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item">Competitivo</li>
+          <li class="list-group-item">Multiplayer</li>
+          <li class="list-group-item">Deportes</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="https://www.youtube.com/watch?v=SgSX3gOrj60" target="_blank"
+            class="btn btn-dark text-center rounded-0 mb-3">Gameplay</a>
+        </div>
+      </div>
+
+      <div class="card rounded-0 col-12 col-md-4 col-lg-2 pt-5" style="width: 18rem; background-color: #111111;">
+        <img src="imagenes/videojuegos/aoe4.jpeg" class="card-img-top" alt="Portada de Rocket League">
+        <div class="card-body text-center px-0">
+          <h5 class="card-title">Age of Empires IV</h5>
+          <p class="card-text font-weight-lighter pt-3" style="color: whitesmoke;">Derrota a tus enemigos y crea tu
+            imperio nuevamente con la última versión de AOE.</p>
+        </div>
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item">Estrategia</li>
+          <li class="list-group-item">Multiplayer</li>
+          <li class="list-group-item">Historia</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="https://www.youtube.com/watch?v=h1-o_BFOCJQ" target="_blank"
+            class="btn btn-dark text-center rounded-0 mb-3">Gameplay</a>
+        </div>
+      </div>
+
+
+
+      <div class="card rounded-0 col-12 col-md-4 col-lg-2 pt-5" style="width: 18rem; background-color: #111111;">
+        <img src="imagenes/videojuegos/hades.jpg" class="card-img-top" alt="Portada de Rocket League">
+        <div class="card-body text-center px-0">
+          <h5 class="card-title">Rocket League</h5>
+          <p class="card-text font-weight-lighter pt-3" style="color: whitesmoke;">Some quick example text to build on
+            the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item">Roguelike</li>
+          <li class="list-group-item">Acción</li>
+          <li class="list-group-item">Historia</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="https://www.youtube.com/watch?v=xTA8iPVfb-A" target="_blank"
+            class="btn btn-dark text-center rounded-0 mb-3">Gameplay</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!------------------------------ BANNER ----------------------->
+
+
+
+  <div class="container mx-auto px-auto" style="background-color: black;" id="videojuegos">
+    <div class="row">
+
+      <img src="imagenes/banner/banner-kirito.jpg" class="col-lg-12 px-0" alt="">
+    </div>
+  </div>
+
+
+
+
+
+  <!------------------------------ GALERIA ----------------------->
+
+
+  <div class="container mx-auto px-auto" style="background-color: black;">
+    <div class="row">
+
+      <h1 class="text-left col-12 pt-3 pb-3 mb-0" id="ranking"
+        style="background-image: linear-gradient(to right, #ae3f50,#812a71);">GALERIA</h1>
+      <p class="text-left font-weight-bold container-fluid col-12 mb-0 bg-dark" style="color: white;">
+        >ランキング</p>
+    </div>
+
+  </div>
+
+
+  <div class="container mx-auto px-auto" style="background-color: black;">
+    <div class="row">
+
+      <div class="container col-lg-6 mx-auto px-auto" style="background-color: black;">
+        <div class="row">
+
+          <div class="card rounded-0 col-lg-6">
+            <img src="imagenes/galeria/akira.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-6">
+            <img src="imagenes/galeria/5.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-3">
+            <img src="imagenes/galeria/boku-no-hero.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-3">
+            <img src="imagenes/galeria/bleach.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-3">
+            <img src="imagenes/galeria/alucard.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-3">
+            <img src="imagenes/galeria/evangelion.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-3">
+            <img src="imagenes/galeria/1.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-3">
+            <img src="imagenes/galeria/levi-ackerman.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-3">
+            <img src="imagenes/galeria/naruto.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-3">
+            <img src="imagenes/galeria/luffi.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-6">
+            <img src="imagenes/galeria/2.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card rounded-0 col-lg-6">
+            <img src="imagenes/galeria/zelda.jpg" class="card-img-top" alt="...">
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="card rounded-0 col-lg-6 px-3">
+        <img src="imagenes/galeria/vegeta.jpg" class="card-img-top" alt="...">
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!------------------------- CONTACTO ------------------->
+
+  <!-- <div class="container mx-auto px-auto" style="background-color: black;">
+    <div class="row">
+      
+      <h1 class="text-left col-12 pt-3 pb-3 mb-0" id="ranking" style="background-image: linear-gradient(to right, #ae3f50,#812a71);">CONTACTO</h1>
+      <p class="text-left font-weight-bold container-fluid col-12 mb-0" style="color: white; background-color: #161616;">
+        >ランキング</p>
+    </div>
+
+  </div> -->
+
+  <!-- <div class="container-fluid bg-dark my-5">
+    <div class="row">
+      
+      <h1 class="text-center col-12 display-2 pt-5" style="color: white;" id="top">TOP</h1>
+      <p class="text-center container-fluid col-12 mb-5" style="color: white; background-color: #cd4549;">UN RESUMEN
+        DE LOS MEJORES ANIMES DE LA ACTUALIDAD</p>
+      </div>
+    </div> -->
+
+  <!-- <div class="container-fluid bg-dark pb-5">
+      <div class="row">
+        <h2 class="col-12 text-center" style="color: white;">¡TU OPINIÓN NOS IMPORTA!
+        </h2>
+      </div>
+    </div> -->
+
+  <!----------------------------- FORMULARIO ---------------------->
+
+  <div class="container pt-5" style="background-color: #161616;" id="contacto">
+    <div class="row">
+
+
+      <footer class="container col-12 col-md-3 col-lg-3 pt-5 pl-0 pr-0" style="display: inline-block;">
+
+        <ul class="encabezado pl-0">
+          <li>
+            <h1 class="pb-3">Home</h1>
+          </li>
+          <li>
+            <h2>Ranking</h2>
+          </li>
+          <li>
+            <h2>Noticias</h2>
+          </li>
+          <li>
+            <h2>Animes</h2>
+          </li>
+          <li>
+            <h2>Videojuegos</h2>
+          </li>
+          <li>
+            <h2>Galeria</h2>
+          </li>
+        </ul>
+
+        <p class="pt-3 pb-3" style="text-align: center; font-weight: normal;">© 2021 Copyright David Sueldo</p>
+
+
+      </footer>
+
+
+      <div class="encabezado container col-12 col-md-3 col-lg-3 pt-5 mx-0">
+
+
+        <h1 class="pb-3">Comunidad</h1>
+
+        <div style="text-align: center;">
+          
+          <a href=""><i class="fab fa-facebook-square pr-3" style="color: white; font-size: xx-large;"></i></a>
+
+
+          <a href=""><i class="fab fa-instagram-square pr-3" style="color: white; font-size: xx-large;"></i></a>
+
+          <a href=""><i class="fab fa-twitter-square pr-3" style="color: white; font-size: xx-large;"></i></a>
+
+          <a href=""><i class="fab fa-youtube-square" style="color: white; font-size: xx-large;"></i></a>
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-12 col-md-6 col-lg-6 pb-3">
+
+
+
+        <form action="scripts/mail.php" method="POST">
+
+
+
+          <div class="form-group">
+
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="btn rounded-0 bg-dark" style="background-color: #161616;color: white;">Nombre</span>
+              </div>
+              <input type="text" aria-label="nombre" class="form-control rounded-0" pattern="[a-zA-Z]+" id="nombre"
+                name="nombre" value="" placeholder="Ingrese su nombre" required>
+            </div>
+
+
+          </div>
+
+
+          <div class="form-group">
+
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="btn rounded-0 bg-dark" style="background-color: #161616; color: white;">Apellido</span>
+              </div>
+              <input type="text" aria-label="apellido" class="form-control rounded-0" pattern="[a-zA-Z]+" id="apellido"
+                name="apellido" value="" placeholder="Ingrese su Apellido" required>
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="btn rounded-0 bg-dark" style="background-color: #161616; color: white;">Correo
+                  Electrónico</span>
+              </div>
+              <input type="text" aria-label="correo" class="form-control rounded-0" pattern=".+@gmail\.com" name="email"
+                id="email" placeholder="sólo cuentas @gmail" required>
+
+            </div>
+          </div>
+
+
+          <div class="form-row">
+
+            <div class="form-group col-5 col-md-5 col-lg-3">
+
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="btn rounded-0 bg-dark" style="background-color: #161616; color: white;">Cód.</span>
+                </div>
+                <input type="text" aria-label="codpais" class="form-control rounded-0" pattern="[0-9]{3}" id="codpais"
+                  name="codpais">
+
+              </div>
+            </div>
+
+            <div class="form-group col-7 col-md-7 col-lg-9">
+
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="btn rounded-0 bg-dark" style="background-color: #161616; color: white;">Teléfono</span>
+                </div>
+                <input type="text" aria-label="telefono" class="form-control rounded-0" pattern="[0-9]{4}-[0-9]{4}"
+                  name="telefono" id="telefono" placeholder="1111-1111">
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="consulta"></label>
+            <textarea name="consulta" class="form-control rounded-0" id="consulta" cols="30" rows="5" maxlength="100"
+              placeholder="Dejanos aquí tu opinión para seguir creciendo" required></textarea>
+            <!-- textarea + TAB -->
+          </div>
+
+          <div class="text-right">
+            <input type="submit" class="btn rounded-0 btn-danger justify-content-center" value="Enviar">
+          </div>
+
+        </form>
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+
+
+
+</body>
+
+</html>
