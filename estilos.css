@@ -80,14 +80,14 @@ h1{
 
 .encabezado h1{
 font-size:xx-large;
-color: #343a40;
+color: #812a71;
 text-align: center;
 font-weight: normal;
 }
 
 .encabezado h2{
     font-size:x-large;
-    color: #343a40;
+    color: whitesmoke;
     text-align: center;
     font-weight: lighter;
    
@@ -96,5 +96,16 @@ font-weight: normal;
 .footer{
     vertical-align: middle;
 }
+
+.btn-danger{
+    background-color: #812a71;
+    border-color: #812a71;
+}
+
+.btn-danger:hover{
+    background-color: #ae3f50;
+    border-color: #ae3f50;
+}
+
 
 
